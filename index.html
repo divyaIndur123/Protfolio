@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Protfolio</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
     <h1>Divya's component library</h1>
     <p>Adarsh Balika is attending neog.camp and is currently completing levelZero one weekend and assignment at a time.</p>
     <p>This is a component library created by her to better design each element.</p>
-    <p>After creating this library she is going to use the components in her <bold>portfolio, blog and all projects</bold> created. This will ensure that all her projects have <bold>consistent themeing and styling</bold></p>
+    <p>After creating this library she is going to use the components in her <strong>portfolio, blog and all projects</strong> created. This will ensure that all her projects have <bold>consistent themeing and styling</bold></p>
 
     <hr>
 
@@ -21,33 +22,41 @@
 
     <hr>
     <h2>container</h2>
+
     <h3>@fluid container</h3>
-    <p>This is going to be a fluid container. It will go full width of page. With some margin.</p>
+    <div class="container ">This is going to be a fluid container. It will go full width of page. With some margin.</div>
+
     <h3>@center container</h3>
-    <p>This is going to be a center container. It will go till a given width and center content.</p>
+    <div class="container container-center">This is going to be a center container. It will go till a given width and center content.</div>
     <hr>
 
     <h2>@links</h2>
-    <a href="">Primary Link</a>
-    <a href="">Secondary Link</a>
+    <a class="link-primary"  href="" >Primary Link</a>
+    <a class="link-secondary" href="">Secondary Link</a>
 
     <hr>
     <h2>@lists</h2>
     <h3>unordered list</h3>
     <p>We don't want to show bullets in the unordered list. We'll remove that with CSS.</p>
-    <ul>
+    <ul class="list">
         <li>item one</li>
         <li>item two</li>
         <li>item three</li>
     </ul>
 
     <h3>ordered list</h3>
-    <ol>
+    <ol class="list">
+        <li class="list-item">something</li>
+        <li class="list-item">something else</li>
+        <li class="list-item">something else</li>
+    </ol>
+
+    <h3>reverse ordered lists</h3>
+    <ol reversed>
         <li>something</li>
         <li>something else</li>
         <li>something else</li>
     </ol>
-
     <hr>
 
     <h2>@nav</h2>
