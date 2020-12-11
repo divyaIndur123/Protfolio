@@ -50,6 +50,7 @@ hr{
    
 }
 
+/*list*/
 .list{
 
     list-style: none;
@@ -59,4 +60,21 @@ hr{
 
     display: inline;
     padding: 0rem 0.5rem;
+}
+
+/*navigation*/
+
+.navigation{
+    background-color: var(--primary);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation--nav-menu{
+    text-align: right;
+}
+
+.link-active{
+    font-weight: bold;
 }
