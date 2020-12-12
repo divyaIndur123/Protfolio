@@ -2,7 +2,7 @@
 
 :root{
 
-    --primary:#3B82F6;
+    --primary:#3f3d56;
     --dark-grey:grey;
     --off-white:#f3f4f6;
 }
@@ -10,6 +10,9 @@
 body{
 
     font-family: 'Montserrat' ,sans-serif;
+    /* background-image: url("./images/blue.jpg"); */
+    /* background-size: 400px 10px; */
+
 }
 
 hr{
@@ -105,17 +108,26 @@ text-align: center;
 }
 
 /*Section*/
-
-.section,h1{
-
-    text-align: center;
+.section{
+    display: block;
     padding: 2rem;
+}
+.section h2{
+   
+    text-align: center;
 
 }
+
 .ow{
 
     background-color: var(--off-white);
+} 
+
+.section p {
+    margin-block-end: 2em;
 }
+
+
 
 /*footer*/
 
@@ -126,8 +138,6 @@ text-align: center;
     padding: 2rem;
     color:white;
     border-bottom-right-radius: 2rem;
-    
-
 }
 li.list-item a {
     text-decoration: none;
