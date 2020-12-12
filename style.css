@@ -3,7 +3,10 @@
 :root{
 
     --primary:#3B82F6;
+    --dark-grey:grey;
+    --off-white:#f3f4f6;
 }
+
 body{
 
     font-family: 'Montserrat' ,sans-serif;
@@ -77,4 +80,60 @@ hr{
 
 .link-active{
     font-weight: bold;
+}
+
+/*Header*/
+.header {
+padding: 2rem;
+text-align: center;
+}
+
+.header-img{
+
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.header-heading{
+    color:var(--dark-grey);
+    
+}
+
+.header-heading .header-inverted{
+    color:var(--primary-color);
+}
+
+/*Section*/
+
+.section,h1{
+
+    text-align: center;
+    padding: 2rem;
+
+}
+.ow{
+
+    background-color: var(--off-white);
+}
+
+/*footer*/
+
+.footer{
+
+    text-align: center;
+    background-color: var(--primary);
+    padding: 2rem;
+    color:white;
+    border-bottom-right-radius: 2rem;
+    
+
+}
+li.list-item a {
+    text-decoration: none;
+    color:white;
+}
+
+.footer ul.list{
+    padding-inline-start: 0px;
 }
