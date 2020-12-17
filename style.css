@@ -10,8 +10,6 @@
 body{
 
     font-family: 'Montserrat' ,sans-serif;
-    /* background-image: url("./images/blue.jpg"); */
-    /* background-size: 400px 10px; */
 
 }
 
@@ -146,4 +144,14 @@ li.list-item a {
 
 .footer ul.list{
     padding-inline-start: 0px;
+}
+
+
+.brand-name {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 59px;
+    text-align: center;
+    line-height: 100px;
 }
